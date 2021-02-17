@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+
+Body {  
+ 
+  background-size: cover;
+  font-family: Calibri, Helvetica, sans-serif; 
+   
+  
+}  
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
