@@ -3,6 +3,7 @@ import {
     Card, CardText, CardBody, CardLink,
     CardTitle, CardSubtitle
   } from 'reactstrap';
+  import Rate from './Rate'
 
 
 const MovieCard = ({movie}) => {
@@ -18,7 +19,7 @@ const MovieCard = ({movie}) => {
         
         <CardBody>
             <div><CardText>{movie.desc}</CardText></div>
-          
+          <div><Rate rating={movie.rate}/></div>
          
         </CardBody>
       </Card>

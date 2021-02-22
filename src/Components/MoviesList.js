@@ -3,12 +3,12 @@ import MovieCard from "./MovieCard";
 
 
 
-const MoviesList = ({movieslist}) => {
+const MoviesList = ({moviesArray}) => {
 
   return (
     <div className="MoviesLis" style={{display:"flex",flexWrap:"wrap"}} > 
       
-      {movieslist.map(elm => <MovieCard movie={elm}/> )}  
+      {moviesArray.map(elm => <MovieCard movie={elm}/> )}  
        
          
       </div>
