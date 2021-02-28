@@ -1,7 +1,7 @@
 import React, { useState  } from "react"
 import PropTypes from "prop-types";
 import {Card , CardImg} from 'reactstrap'
-import imgg from '../logo.svg'
+import imgg from '../plus-circle-solid.svg'
 import ModalComp from "./ModalComp";
 
 const AddMovie = ({handleAdd}) => {
